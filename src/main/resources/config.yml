@@ -1,0 +1,58 @@
+title: "&0Buyer" #title to inventory
+
+#permission message
+permission-message: "&6&lSELLER &8| &cYou do not have permission to use this command."
+#reload config message
+reload-message: "&6&lSELLER &8| &aLiteBuyerX configuration reloaded."
+#sell message item the buyer
+sell-message-item: "&6&lSELLER &8| &fYou sold items worth: &e{money}"
+
+#EVENT
+#stop event money
+event-end: "&6&lSELLER &8| &fEvent ended!"
+#start event money buyer
+started-events: "&6&lSELLER &8| &fEvent started! Sell 120 items 1400 money!"
+
+#button sell
+sell:
+  material: MINECART
+  slot: 49
+  name: "&#17FB00Click to sell"
+  lore:
+    - " "
+
+#button close
+close:
+  material: BARRIER
+  slot: 45
+  name: "&#DD0000Close"
+
+#button events + time settings
+event:
+  time: 1 # minutes
+  end-time: 20 # seconds
+  money: 6400 #give money to sell
+  items: 120 #emount items
+  material: BELL #meterial
+  slot: 53 #slot
+  name: "&#FB9400{time} &fseconds" #name
+  lore: #lore
+    - " "
+    - "&fEvery hour on the server there is an event"
+    - "&fthere is an event experienced farmer"
+    - "&fonce every 1 hour for every 120 items"
+    - "&fhanded in 6400 coins are added"
+    - "&fto the total amount"
+    - " "
+
+#decorations
+panel:
+  name: " "
+  material: BLACK_STAINED_GLASS_PANE #material
+  slot:
+    - "46"
+    - "47"
+    - "48"
+    - "50"
+    - "51"
+    - "52"

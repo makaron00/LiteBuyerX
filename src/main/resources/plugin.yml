@@ -1,0 +1,10 @@
+name: LiteBuyerX
+version: '${version}'
+main: org.makaron.ua.litebuyerx.LiteBuyerX
+api-version: '1.16'
+commands:
+  seller:
+    description: Opens the seller menu.
+  litebuyerx:
+    description: Main command for LiteBuyerX.
+    usage: /<command> [reload]

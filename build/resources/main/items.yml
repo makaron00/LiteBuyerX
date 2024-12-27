@@ -1,0 +1,42 @@
+buyer:
+  #==============
+  #meterial:
+  DIAMOND:
+    #price: (money to sell items)
+    price: 200
+  #===============
+  IRON_INGOT:
+    price: 20
+  GOLD_INGOT:
+    price: 22
+  NETHERITE_INGOT:
+    price: 890
+  COOKED_PORKCHOP:
+    price: 31
+  ENDER_PEARL:
+    price: 45
+  COAL:
+    price: 12
+  BLAZE_ROD:
+    price: 89
+  BONE:
+    price: 13
+  NETHER_WART:
+    price: 23
+  WHEAT:
+    price: 10
+  NETHERITE_SCRAP:
+    price: 244
+  EMERALD:
+    price: 47
+  SUGAR_CANE:
+    price: 32
+  KELP:
+    price: 12
+  BAMBOO:
+    price: 17
+  REDSTONE:
+    price: 21
+  DRIED_KELP:
+    price: 21
+
